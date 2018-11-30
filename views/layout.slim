@@ -1,0 +1,12 @@
+doctype html
+html lang="en"
+  head
+    meta charset="utf-8"
+    title Vagrancy
+    meta name="viewport" content="width=device-width, initial-scale=1"
+    == stylesheet_tag 'application'
+  body
+    .container
+      h1 Vagrancy
+      == yield
+    == javascript_tag 'application'
